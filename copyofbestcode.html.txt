@@ -1,0 +1,316 @@
+best code without sections
+
+
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Coral+Pixels&family=Doto:wght@900&display=swap");
+.w-40 h1{
+font-family: Doto, sans-serif;
+font-size: 59px;
+background: -webkit-linear-gradient(#ff7de9, #ffffff);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+-webkit-text-stroke: 0.5px #ff00ea;
+border: 5px double #7DFFFD;
+border-radius: 10px;
+padding: 2px;
+text-align: center;
+}
+main, .top, .top .button, .links, footer {
+font-family: Doto, sans-serif;
+font-size: 10px;
+}
+</style>
+<style>
+:root {
+&nbsp;	--logo-blue: #000000;
+&nbsp;	--darker-blue: #ff00ea;
+&nbsp;	--lighter-blue: #7DFFFD;
+&nbsp;	--even-lighter-blue: #000000;
+&nbsp;	--lightest-blue: #000000;
+&nbsp;	--dark-orange: #ff00ea;
+&nbsp;	--light-orange: url(https://i.pinimg.com/1200x/b3/30/a1/b330a1490faa5e3bf29b60fdc15dbd95.jpg);
+&nbsp;	--even-lighter-orange: url(https://i.pinimg.com/1200x/b3/30/a1/b330a1490faa5e3bf29b60fdc15dbd95.jpg);
+&nbsp;	--red: #ff00ea;
+}
+</style>
+<style>
+body {
+background-image:url(https://i.pinimg.com/1200x/e8/a1/ba/e8a1ba961fecf7e6a07cbd01e0a85f58.jpg);
+}
+main {
+background-color: #fca9e2;
+}
+main:before{
+width: 100%;
+height: 350px;
+display: block;
+content: "";
+background-image: url('https://i.pinimg.com/originals/93/56/75/93567591aa08aad5f8fa5e8a61e69eb4.gif');
+background-position: center center;
+background-size: cover;
+}
+.links {
+text-align: center;
+font-size: 16px;
+background: #2ff598;
+background: linear-gradient(0deg,rgba(47, 245, 152, 1) 0%, rgba(255, 212, 212, 1) 64%, rgba(255, 212, 212, 1) 33%);
+}
+div.top{
+background:url(https://i.pinimg.com/1200x/e8/39/5b/e8395b75b9a3af686f4996bde7cef527.jpg);
+background-size: 150px;
+}
+</style>
+<style>
+:root {
+--cd-image: url('https://fluorescent-lights.neocities.org/Digital-CD-Disk-Vector-Transparent-PNG.png');
+}
+.profile-pic {
+position: relative;
+width: 183px;
+filter: drop-shadow(0 0 0.25rem gray);
+}
+.profile-pic:after {
+content: "";
+background: url('https://fluorescent-lights.neocities.org/f0rzNHe.png'), linear-gradient(150deg, rgba(255,255,255,0.4), rgba(255,255,255,0.2), 40%, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.6));
+background-size: contain, cover;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+.profile-pic:before {
+content: "";
+background: var(--cd-image);
+position: absolute;
+top: 5px;
+left: -20px;
+width: 150px;height: 150px;
+background-repeat: no-repeat;
+z-index: -1;
+animation-name: spin;
+animation-duration: 5000ms;
+animation-iteration-count: infinite;
+animation-timing-function: linear; 
+transition: left ease 0.5s;
+}
+.profile-pic:hover:before {
+left: -75px;
+}
+@keyframes spin {
+&nbsp;   from {
+&nbsp;       transform:rotate(0deg);
+&nbsp;   }
+&nbsp;   to {
+&nbsp;       transform:rotate(360deg);
+&nbsp;   }
+}
+.profile-pic .pfp-fallback {
+float: right;
+width: 163px;
+height: 160px;
+border: none;
+}
+.general-about .profile-pic img {
+max-width: inherit;
+}
+.general-about {
+padding: 2px;
+border: 5px double #7DFFFD;
+border-radius: 10px;
+height: 200px;
+}
+.online{
+content:url("https://gifs.carrd.co/assets/images/image31.gif?vfd74bc7cc");
+width: 100px;
+content-align: 100px;
+}
+</style>
+<style>
+.mood {
+padding: 5px;
+border: 5px double #7DFFFD;
+border-radius: 10px;
+}
+.mood p {
+font-size: 15px;
+}
+.mood a {
+font-size: 12px;
+}
+</style>
+<style>
+.contact {
+border: 5px double #7DFFFD;
+border-radius: 10px;
+}
+.contact .inner a img {
+&nbsp; font-size: 0;
+}
+.contact .inner a img:before {
+&nbsp; font-size: 1em;
+&nbsp; display: block
+}
+.contact .inner a:before {
+&nbsp; content: ""
+}
+.contact .inner .f-row:nth-child(1) .f-col:nth-child(1) a:before {
+&nbsp; /\* add to friends \*/
+&nbsp; display: inline-block;
+&nbsp; background: url("https://pixels.crd.co/assets/images/gallery112/56607b05.gif?v=2942f085")no-repeat 0 0;
+&nbsp; background-size: 100%;
+&nbsp; width: 20px;
+&nbsp; height: 20px;
+}
+.contact .inner .f-row:nth-child(1) .f-col:nth-child(2) a:before {
+&nbsp; /\* add to favorites \*/
+&nbsp; display: inline-block;
+&nbsp; background: url("https://pixels.crd.co/assets/images/gallery90/9f8f06f9.gif?v=2942f085")no-repeat 0 0;
+&nbsp; background-size: 100%;
+&nbsp; width: 20px;
+&nbsp; height: 20px;
+}
+.contact .inner .f-row:nth-child(2) .f-col:nth-child(1) a:before {
+&nbsp; /\* send Message \*/
+&nbsp; display: inline-block;
+&nbsp; background: url("https://pixels.crd.co/assets/images/gallery112/81f0c7e5.gif?v=2942f085")no-repeat 0 0;
+&nbsp; background-size: 100%;
+&nbsp; width: 20px;
+&nbsp; height: 20px;
+}
+.contact .inner .f-row:nth-child(2) .f-col:nth-child(2) a:before {
+&nbsp; /\* forward to friend \*/
+&nbsp; display: inline-block;
+&nbsp; background: url("https://pixels.crd.co/assets/images/gallery112/78ed9a20.gif?v=2942f085")no-repeat 0 0;
+&nbsp; background-size: 100%;
+&nbsp; width: 20px;
+&nbsp; height: 20px;
+}
+.contact .inner .f-row:nth-child(3) .f-col:nth-child(1) a:before {
+&nbsp; /\* instant message \*/
+&nbsp; display: inline-block;
+&nbsp; background: url("https://pixels.crd.co/assets/images/gallery01/206258c7.gif?v=2942f085")no-repeat 0 0;
+&nbsp; background-size: 100%;
+&nbsp; width: 20px;
+&nbsp; height: 20px;
+}
+.contact .inner .f-row:nth-child(3) .f-col:nth-child(2) a:before {
+&nbsp; /\* block user \*/
+&nbsp; display: inline-block;
+&nbsp; background: url("https://pixels.crd.co/assets/images/gallery16/716af8ce.gif?v=2942f085")no-repeat 0 0;
+&nbsp; background-size: 100%;
+&nbsp; width: 20px;
+&nbsp; height: 20px;
+}
+.contact .inner .f-row:nth-child(4) .f-col:nth-child(1) a:before {
+&nbsp; /\* add to group \*/
+&nbsp; display: inline-block;
+&nbsp; background: url("https://pixels.crd.co/assets/images/gallery16/ecd66e8a.gif?v=2942f085")no-repeat 0 0;
+&nbsp; background-size: 100%;
+&nbsp; width: 20px;
+&nbsp; height: 20px;
+}
+.contact .inner .f-row:nth-child(4) .f-col:nth-child(2) a:before {
+&nbsp; /\* report user \*/
+&nbsp; display: inline-block;
+&nbsp; background: url("https://pixels.crd.co/assets/images/gallery112/2d519ac6.gif?v=2942f085")no-repeat 0 0;
+&nbsp; background-size: 100%;
+&nbsp; width: 20px;
+&nbsp; height: 20px;
+}
+.contact a {
+padding: 1px;
+font-size: 10.5px;
+-webkit-text-stroke: 0.25px #ff00ea;
+}
+</style>
+<style>
+.profile .url-info b {
+font-color: #ff00ea }
+.profile .url-info p:last-child:after {
+content: ":3"; display: block; background-image: url('https://media.tenor.com/GUhu3AIYYEEAAAAi/kawaii-pixel.gif');  width: auto; height: 180px; background-position: 60px center; background-size: 50%; background-repeat: no-repeat;
+}
+.profile .url-info p { text-align: center; font-size: 15px;
+}
+.profile .url-info { 
+border: 5px double #7DFFFD;
+border-radius: 10px;
+}
+</style>
+<style>
+.table-section td{
+padding: 5px;
+background-image: url(https://i.pinimg.com/1200x/b3/30/a1/b330a1490faa5e3bf29b60fdc15dbd95.jpg)!important;
+background-size: fit!important;
+}
+.table-section {
+border: 10px double #7DFFFD;
+border-radius: 10px;
+}
+</style>
+<style>
+.blog-preview {
+border: 5px double #7DFFFD;
+border-radius: 10px;
+padding: 10px;
+font-size: 15px;
+}
+</style>
+<style>
+.profile .blurbs .heading, .profile .friends .heading, .profile .contact .heading, .profile .table-section .heading, .home-actions .heading{
+background: #2ff598;
+background: linear-gradient(0deg,rgba(47, 245, 152, 1) 0%, rgba(255, 212, 212, 1) 64%, rgba(255, 212, 212, 1) 33%);;
+color: black;
+border-radius: 5px;
+border: 10px single #E640D8;
+font-size: 15px;
+text-transform; uppercase!important;
+text-align: center;
+}
+.blurbs {
+border: 5px double #7DFFFD;
+border-radius: 10px;}
+.profile .blurbs .section h4 {
+font-size: 15px;
+background: -webkit-linear-gradient(#ffffff, #ff7de9);
+</style>
+<style>
+.friends {
+border: 5px double #7DFFFD;
+border-radius: 10px;}
+</style>
+<style>
+/\*Spotify\*/
+img\[src="https://static.spacehey.net/social-icons/spotify.png"] {
+&nbsp; content: url("PUT IMG URL HERE");
+}
+/\*Website\*/
+img\[src="https://static.spacehey.net/social-icons/custom\_web.png"] {
+&nbsp; content: url("PUT IMG URL HERE");
+}
+/\*Tiktok\*/
+img\[src="https://static.spacehey.net/social-icons/custom\_tiktok.png"]{
+&nbsp;
+&nbsp; content: url("PUT IMG URL HERE");
+}
+/\*Pinterest\*/
+img\[src="https://static.spacehey.net/social-icons/pinterest.png"]{
+&nbsp;content: url("PUT IMG URL HERE");
+}
+/\*Bechance\*/
+img\[src="https://static.spacehey.net/social-icons/behance.png"]{
+&nbsp;content: url("PUT IMG URL HERE");
+}
+/\*Instagram\*/
+img\[src="https://static.spacehey.net/social-icons/instagam.png"]{
+content: url("IMG URL HERE");
+}
+</style>
+<style>
+footer {
+border-radius: 15px; background-image: url(https://i.pinimg.com/736x/0a/8d/47/0a8d479024174a1d962d5ab247600682.jpg);
+background-size: cover;
+color: white;
+height: 250px
+}
+</style>
