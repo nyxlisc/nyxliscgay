@@ -1,39 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>nyxlisc</title>
-    <link rel="stylesheet" href="css/styles.css">
+<title>NyxlisC</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Special+Elite">
+
 <style>
 * {
   box-sizing: border-box;
 }
 
 body {
-    font-family: "Special Elite", sans-serif;
-  background-image: url("images/paper_background.jpg");
+  font-family: "Special Elite", monospace;
+  background-image: url(images/paper_background.jpg);
   background-size: cover;
 }
 
 /* Style the header */
 .header {
-  background-color: #f1f1f1;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
+  width: 50%;
+  margin: auto;
+  background-color: transparent;
+  text-align: left;
+  font-size: 300%;
 }
 
 /* Create three unequal columns that floats next to each other */
 .column {
   float: left;
+  padding: 10px;
 }
 
 /* Left and right column */
-.column.side {
-  width: 425px;
-  height: auto;
+.column.left {
+  width: 19.5%;
+  height: max-content;
+}
+
+.column.right {
+  width: 30.5%;
 }
 
 /* Middle column */
@@ -48,6 +55,7 @@ body {
   clear: both;
 }
 
+
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
   .column.side, .column.middle {
@@ -57,45 +65,54 @@ body {
 </style>
 </head>
 <body>
-<header class="square-header">
-    <h1><img src="images/portrait.png" alt="Portraits"></h1>
-</header>
-<header>
-  <h1 class="fixed-top">NyxlisC</h1>
-</header>
+<div class="header">
+  <h2>Nyx Choi</h2>
+</div>
+
+<div class="portrait">
+  <img src="images/portrait.png" alt="Portrait">
+</div>
+
+  <div class="contact-card">
+    <div=class=:"card-image">
+      <img src="images/contact.png" alt="contact-card">
+  </div>
 
 <div class="row">
-
-  <div class="column side abilities-column">
-    <h2 class="text">Abilities</h2>
-    <div class="bg-card-image">
-      <img src="images/abilities.png" alt="Background Image">
+  <div class="column left" style="background-color: transparent;"><h2 class="abilities">Abilities</h2>
+  <div class="ability-img">
+  <img src="images/abilities.png" alt="ability-img">
     </div>
   </div>
+
 
   <div class="column middle" style="background-color:transparent;">
-    <div class="talker-image">
-      <img src="images/talker.png" alt="Nyx Logo">
+ <div class="talker-img">
+    <img src="images/talker.png" alt-="talker-img">
   </div>
+    <button id="mouth-exedu" class="mouth-exedu">
+    <img src="images/exedu.png" alt="Mouth-exedu" class="rotate">
+  </button>
+  <button id="mouth-proj" class="mouth-proj">
+    <img src="images/proj.png" alt="Mouth-proj" class="rotate">
+  </button>
+  <button id="mouth-misc" class="mouth-misc">
+    <img src="images/misc.png" alt="Mouth-misc" class="rotate">
+  </button>
+  <button id="mouth-about" class="mouth-about">
+    <img src="images/about.png" alt="Mouth-about" class="rotate">
+  </button>
   </div>
 
- <div class="column side contact-column">
-    <div class="contact-card">
-      <div class="card-image">
-        <img src="images/contact.png" alt="Background Image" style="height: 250px">
-      </div>
+
+  <div class="column right" style="background-color:transparent;">
+    <button id="call-img" class="call-img">
+      <h1 class="call-text">Contact Me!</h1>
+      <img src="images/call.png" alt="call-img">
+    </button>
     </div>
- </div>
 
-  <div class="caller-image" style="background-color:transparent;">
-      <div class="contact-me">Contact Me!</div>
-        <img src="images/call.png">
-      </div>
   </div>
-
 </div>
 </body>
 </html>
-
-
-
